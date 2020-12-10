@@ -1,0 +1,8 @@
+{
+  "name": "@x-toolkit/crypto-wasm",
+  "description": "wasm",
+  "version": "0.1.0",
+  "author": "xuyizhe <barrenbass@gmail.com>",
+  "license": "MIT",
+  "main": "Cargo.toml"
+}

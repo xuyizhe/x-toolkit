@@ -1,0 +1,717 @@
+Info 0    [14:57:19.782] Starting TS Server
+Info 1    [14:57:19.784] Version: 4.0.5
+Info 2    [14:57:19.784] Arguments: /Users/xuyizhe/.nvm/versions/node/v12.19.0/bin/node /Users/xuyizhe/.nvm/versions/node/v12.19.0/bin/tsserver --logFile /Users/xuyizhe/dev/wasm-toolkit/wasm-example/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/57/8scrfm2n35708m9v_2z9gjtm0000gn/T/d0173caf9ad15b33cbb9345c53ffb182/tscancellation*
+Info 3    [14:57:19.784] Platform: darwin NodeVersion: 12 CaseSensitive: false
+Info 4    [14:57:19.784] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [14:57:19.794] Search path: /Users/xuyizhe/dev/wasm-toolkit/wasm-example
+Info 6    [14:57:19.795] For info: /Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js :: No config files found.
+Info 7    [14:57:19.798] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [14:57:21.76] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1278ms
+Info 9    [14:57:21.76] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [14:57:21.76] 	Files (110)
+
+Info 11   [14:57:21.76] -----------------------------------------------
+Info 12   [14:57:21.522] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 13   [14:57:21.522] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 14   [14:57:21.522] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46 :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 15   [14:57:21.522] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46 :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 16   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46/README.md :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 17   [14:57:21.573] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46/README.md :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 18   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46/package.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 19   [14:57:21.573] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46/package.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 20   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46/index.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 21   [14:57:21.573] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46/index.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 22   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/README.md :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 23   [14:57:21.573] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/README.md :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 24   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/index.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 25   [14:57:21.573] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/index.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 26   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/package.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 27   [14:57:21.573] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/package.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 28   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 29   [14:57:21.573] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 30   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46 :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 31   [14:57:21.573] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging/types-registry-f82b9f46 :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 32   [14:57:21.573] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 33   [14:57:21.574] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 34   [14:57:21.574] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/package.json.3430520656 :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 35   [14:57:21.574] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/package.json.3430520656 :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 36   [14:57:21.574] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/package.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 37   [14:57:21.574] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/package.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 38   [14:57:21.574] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/package.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 39   [14:57:21.574] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/types-registry/package.json :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 40   [14:57:21.574] DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 41   [14:57:21.574] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules/.staging :: WatchInfo: /Users/xuyizhe/Library/Caches/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 42   [14:57:21.909] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 43   [14:57:21.960] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 51ms
+Info 44   [14:57:21.960] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Err 45    [14:57:23.191] Exception on executing command {"command":"getCodeFixes","seq":19,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":8,"startOffset":50,"endLine":8,"endOffset":50,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 46   [14:57:24.411] Before ensureProjectForOpenFiles:
+Info 47   [14:57:24.412] After ensureProjectForOpenFiles:
+Info 48   [14:57:24.412] got projects updated in background, updating diagnostics for /Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js
+Info 49   [14:57:30.241] Format host information updated
+Info 50   [14:57:30.259] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 51   [14:57:30.268] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 9ms
+Info 52   [14:57:30.268] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 53   [14:57:30.269] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 54   [14:57:30.280] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 11ms
+Info 55   [14:57:30.280] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 56   [14:57:30.842] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 57   [14:57:30.850] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 8ms
+Info 58   [14:57:30.850] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Err 59    [14:57:32.421] Exception on executing command {"command":"getCodeFixes","seq":55,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":8,"startOffset":1,"endLine":8,"endOffset":1,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 60    [14:57:34.515] Exception on executing command {"command":"getCodeFixes","seq":63,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":8,"startOffset":1,"endLine":8,"endOffset":1,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 61    [14:57:34.819] Exception on executing command {"command":"getCodeFixes","seq":65,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":8,"startOffset":1,"endLine":8,"endOffset":1,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 62   [14:57:37.573] Format host information updated
+Info 63   [14:57:37.792] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 64   [14:57:37.823] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: true Elapsed: 31ms
+Info 65   [14:57:37.823] Project '/dev/null/inferredProject1*' (Inferred)
+Info 66   [14:57:37.823] 	Files (109)
+
+Info 67   [14:57:37.823] -----------------------------------------------
+Info 68   [14:57:38.169] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 69   [14:57:38.209] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: true Elapsed: 40ms
+Info 70   [14:57:38.209] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Err 71    [14:57:38.273] Exception on executing command {"command":"getCodeFixes","seq":90,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":7,"startOffset":1,"endLine":7,"endOffset":1,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 72    [14:57:38.771] Exception on executing command {"command":"getCodeFixes","seq":92,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":7,"startOffset":1,"endLine":7,"endOffset":1,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 73   [14:57:40.433] Before ensureProjectForOpenFiles:
+Info 74   [14:57:40.433] After ensureProjectForOpenFiles:
+Info 75   [14:57:40.433] got projects updated in background, updating diagnostics for /Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js
+Info 76   [14:57:43.194] Search path: /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src
+Info 77   [14:57:43.195] For info: /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/main.js :: No config files found.
+Info 78   [14:57:43.198] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 79   [14:57:43.233] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true Elapsed: 35ms
+Info 80   [14:57:43.233] Project '/dev/null/inferredProject2*' (Inferred)
+Info 81   [14:57:43.233] 	Files (86)
+
+Info 82   [14:57:43.233] -----------------------------------------------
+Info 83   [14:57:43.399] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 84   [14:57:43.401] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: false Elapsed: 2ms
+Info 85   [14:57:45.841] Before ensureProjectForOpenFiles:
+Info 86   [14:57:45.841] After ensureProjectForOpenFiles:
+Info 87   [14:57:45.841] got projects updated in background, updating diagnostics for /Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js,/Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/main.js
+Info 88   [14:57:46.535] DirectoryWatcher:: Triggered with /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/wasm_bg.wasm :: WatchInfo: /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 89   [14:57:46.535] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/wasm_bg.wasm :: WatchInfo: /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 90   [14:57:51.308] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 91   [14:57:51.336] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 3 structureChanged: true Elapsed: 28ms
+Info 92   [14:57:51.336] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 93   [14:57:52.854] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 94   [14:57:52.876] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 4 structureChanged: true Elapsed: 22ms
+Info 95   [14:57:52.876] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 96   [14:57:53.806] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 97   [14:57:53.831] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 5 structureChanged: true Elapsed: 25ms
+Info 98   [14:57:53.832] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 99   [14:57:54.104] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 100  [14:57:54.124] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 6 structureChanged: true Elapsed: 20ms
+Info 101  [14:57:54.124] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 102  [14:57:56.442] Before ensureProjectForOpenFiles:
+Info 103  [14:57:56.443] After ensureProjectForOpenFiles:
+Info 104  [14:57:56.443] got projects updated in background, updating diagnostics for /Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js,/Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/main.js
+Info 105  [14:57:58.206] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 106  [14:57:58.232] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 7 structureChanged: true Elapsed: 26ms
+Info 107  [14:57:58.232] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 108  [14:57:58.411] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 109  [14:57:58.437] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 8 structureChanged: true Elapsed: 26ms
+Info 110  [14:57:58.437] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 111  [14:58:0.842] Before ensureProjectForOpenFiles:
+Info 112  [14:58:0.843] After ensureProjectForOpenFiles:
+Info 113  [14:58:0.843] got projects updated in background, updating diagnostics for /Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js,/Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/main.js
+Info 114  [14:59:33.311] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 115  [14:59:33.322] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 9 structureChanged: false Elapsed: 11ms
+Info 116  [14:59:33.322] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 117  [14:59:37.973] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 118  [14:59:37.982] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 10 structureChanged: false Elapsed: 9ms
+Info 119  [14:59:37.982] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 120  [14:59:39.557] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 121  [14:59:39.564] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 11 structureChanged: false Elapsed: 7ms
+Info 122  [14:59:39.564] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 123  [14:59:39.566] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 124  [14:59:39.572] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 12 structureChanged: false Elapsed: 6ms
+Info 125  [14:59:39.573] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 126  [14:59:40.67] getCompletionData: Get current token: 0
+Info 127  [14:59:40.67] getCompletionData: Is inside comment: 0
+Info 128  [14:59:40.67] getCompletionData: Get previous token 1: 0
+Info 129  [14:59:40.67] getCompletionData: Get previous token 2: 0
+Info 130  [14:59:40.68] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 131  [14:59:40.78] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 132  [14:59:40.85] forEachExternalModuleToImportFrom: filtered out 47 modules by package.json contents
+Info 133  [14:59:40.89] getSymbolsFromOtherSourceFileExports: 11
+Info 134  [14:59:40.91] getCompletionData: Semantic work: 23
+Info 135  [14:59:40.111] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20
+Info 136  [14:59:40.674] getCompletionData: Get current token: 0
+Info 137  [14:59:40.675] getCompletionData: Is inside comment: 0
+Info 138  [14:59:40.675] getCompletionData: Get previous token 1: 0
+Info 139  [14:59:40.675] getCompletionData: Get previous token 2: 0
+Info 140  [14:59:40.675] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 141  [14:59:40.678] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 142  [14:59:40.681] getCompletionData: Semantic work: 6
+Info 143  [14:59:41.55] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 144  [14:59:41.63] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 13 structureChanged: false Elapsed: 8ms
+Info 145  [14:59:41.63] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 146  [14:59:41.916] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 147  [14:59:41.923] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 14 structureChanged: false Elapsed: 6ms
+Info 148  [14:59:41.923] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 149  [14:59:43.745] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 150  [14:59:43.752] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 15 structureChanged: false Elapsed: 7ms
+Info 151  [14:59:43.752] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 152  [14:59:45.55] Format host information updated
+Err 153   [15:2:37.924] Exception on executing command {"command":"getCodeFixes","seq":317,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":7,"startOffset":1,"endLine":7,"endOffset":1,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 154   [15:2:38.208] Exception on executing command {"command":"getCodeFixes","seq":319,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":7,"startOffset":1,"endLine":7,"endOffset":1,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 155   [15:2:38.641] Exception on executing command {"command":"getCodeFixes","seq":321,"type":"request","arguments":{"file":"/Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js","startLine":7,"startOffset":42,"endLine":7,"endOffset":42,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:1499:25)
+        at tryGetImportedPackageName (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134574:33)
+        at Object.getCodeActions (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:134542:35)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:77
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:130654:23)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143851:35
+        at Object.flatMap (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:143849:23)
+        at IOSession.Session.getCodeFixes (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:154717:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:153394:61)
+        at /Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:88
+        at IOSession.Session.executeWithRequestId (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155008:28)
+        at IOSession.Session.executeCommand (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155017:33)
+        at IOSession.Session.onMessage (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:155041:35)
+        at Interface.<anonymous> (/Users/xuyizhe/.nvm/versions/node/v12.19.0/lib/node_modules/typescript/lib/tsserver.js:157257:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:298:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 156  [15:2:49.105] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 157  [15:2:49.117] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 12ms
+Info 158  [15:2:49.117] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 159  [15:3:31.103] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 160  [15:3:31.117] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 14ms
+Info 161  [15:3:31.117] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 162  [15:3:32.7] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 163  [15:3:32.19] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false Elapsed: 12ms
+Info 164  [15:3:32.19] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 165  [15:3:32.766] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 166  [15:3:32.777] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false Elapsed: 11ms
+Info 167  [15:3:32.777] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 168  [15:3:33.524] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 169  [15:3:33.536] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false Elapsed: 11ms
+Info 170  [15:3:33.536] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 171  [15:3:35.240] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 172  [15:3:35.250] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false Elapsed: 10ms
+Info 173  [15:3:35.250] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 174  [15:3:36.315] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 175  [15:3:36.322] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false Elapsed: 6ms
+Info 176  [15:3:36.322] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 177  [15:3:37.523] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 178  [15:3:37.531] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false Elapsed: 7ms
+Info 179  [15:3:37.531] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 180  [15:3:43.473] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 181  [15:3:43.484] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false Elapsed: 10ms
+Info 182  [15:3:43.484] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 183  [15:3:44.90] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 184  [15:3:44.100] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false Elapsed: 10ms
+Info 185  [15:3:44.100] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 186  [15:3:44.104] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 187  [15:3:44.111] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false Elapsed: 7ms
+Info 188  [15:3:44.111] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 189  [15:3:45.256] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 190  [15:3:45.266] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: false Elapsed: 10ms
+Info 191  [15:3:45.266] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 192  [15:3:45.509] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 193  [15:3:45.521] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 20 structureChanged: false Elapsed: 12ms
+Info 194  [15:3:45.521] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 195  [15:3:46.123] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 196  [15:3:46.134] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 21 structureChanged: false Elapsed: 10ms
+Info 197  [15:3:46.134] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 198  [15:3:46.134] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 199  [15:3:46.141] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 22 structureChanged: false Elapsed: 6ms
+Info 200  [15:3:46.141] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 201  [15:3:46.515] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 202  [15:3:46.524] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 23 structureChanged: false Elapsed: 9ms
+Info 203  [15:3:46.524] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 204  [15:3:48.539] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 205  [15:3:48.548] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 24 structureChanged: false Elapsed: 8ms
+Info 206  [15:3:48.548] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 207  [15:3:48.801] Format host information updated
+Info 208  [15:3:49.28] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 209  [15:3:49.36] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 25 structureChanged: false Elapsed: 8ms
+Info 210  [15:3:49.36] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 211  [15:3:49.383] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 212  [15:3:49.392] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 26 structureChanged: false Elapsed: 9ms
+Info 213  [15:3:49.392] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 214  [15:8:11.132] Format host information updated
+Info 215  [15:8:11.347] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 216  [15:8:11.356] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 27 structureChanged: false Elapsed: 9ms
+Info 217  [15:8:11.356] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 218  [15:8:11.725] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 219  [15:8:11.735] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 28 structureChanged: false Elapsed: 10ms
+Info 220  [15:8:11.735] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 221  [15:12:15.778] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 222  [15:12:15.785] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 29 structureChanged: false Elapsed: 7ms
+Info 223  [15:12:15.785] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 224  [15:12:18.418] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 225  [15:12:18.428] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 30 structureChanged: false Elapsed: 9ms
+Info 226  [15:12:18.428] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 227  [15:12:20.161] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 228  [15:12:20.171] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 31 structureChanged: false Elapsed: 10ms
+Info 229  [15:12:20.171] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 230  [15:12:20.748] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 231  [15:12:20.757] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 32 structureChanged: false Elapsed: 9ms
+Info 232  [15:12:20.757] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 233  [15:12:21.377] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 234  [15:12:21.384] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 33 structureChanged: false Elapsed: 7ms
+Info 235  [15:12:21.384] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 236  [15:12:21.463] Format host information updated
+Info 237  [15:12:21.681] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 238  [15:12:21.686] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 34 structureChanged: false Elapsed: 5ms
+Info 239  [15:12:21.686] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 240  [15:12:22.62] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 241  [15:12:22.70] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 35 structureChanged: false Elapsed: 8ms
+Info 242  [15:12:22.71] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 243  [15:12:35.9] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 244  [15:12:35.14] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 36 structureChanged: false Elapsed: 5ms
+Info 245  [15:12:35.14] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 246  [15:12:35.364] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 247  [15:12:35.373] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 37 structureChanged: false Elapsed: 9ms
+Info 248  [15:12:35.373] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 249  [15:12:35.587] Format host information updated
+Info 250  [15:12:35.807] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 251  [15:12:35.813] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 38 structureChanged: false Elapsed: 6ms
+Info 252  [15:12:35.813] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 253  [15:12:36.176] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 254  [15:12:36.184] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 39 structureChanged: false Elapsed: 8ms
+Info 255  [15:12:36.184] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 256  [15:12:49.640] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 257  [15:12:49.645] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 16 structureChanged: false Elapsed: 4ms
+Info 258  [15:12:49.645] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 259  [15:12:49.770] Format host information updated
+Info 260  [15:12:58.555] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 261  [15:12:58.561] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 17 structureChanged: false Elapsed: 6ms
+Info 262  [15:12:58.561] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 263  [15:12:59.64] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 264  [15:12:59.71] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 18 structureChanged: false Elapsed: 7ms
+Info 265  [15:12:59.71] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 266  [15:12:59.339] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 267  [15:12:59.347] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 19 structureChanged: false Elapsed: 8ms
+Info 268  [15:12:59.347] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 269  [15:12:59.641] getCompletionData: Get current token: 0
+Info 270  [15:12:59.641] getCompletionData: Is inside comment: 0
+Info 271  [15:12:59.641] getCompletionData: Get previous token 1: 0
+Info 272  [15:12:59.641] getCompletionData: Get previous token 2: 0
+Info 273  [15:12:59.642] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 274  [15:12:59.648] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 275  [15:12:59.650] getCompletionData: Semantic work: 8
+Info 276  [15:12:59.659] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9
+Info 277  [15:13:0.614] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 278  [15:13:0.623] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 20 structureChanged: false Elapsed: 9ms
+Info 279  [15:13:0.623] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 280  [15:13:1.2] Format host information updated
+Info 281  [15:14:38.88] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 282  [15:14:38.95] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 40 structureChanged: false Elapsed: 7ms
+Info 283  [15:14:38.95] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 284  [15:14:41.697] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 285  [15:14:41.708] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 41 structureChanged: false Elapsed: 10ms
+Info 286  [15:14:41.708] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 287  [15:14:42.986] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 288  [15:14:42.996] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 42 structureChanged: false Elapsed: 10ms
+Info 289  [15:14:42.996] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 290  [15:14:43.928] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 291  [15:14:43.935] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 43 structureChanged: false Elapsed: 7ms
+Info 292  [15:14:43.935] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 293  [15:14:44.693] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 294  [15:14:44.703] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 44 structureChanged: false Elapsed: 10ms
+Info 295  [15:14:44.703] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 296  [15:14:45.905] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 297  [15:14:45.917] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 45 structureChanged: false Elapsed: 12ms
+Info 298  [15:14:45.917] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 299  [15:14:46.542] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 300  [15:14:46.549] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 46 structureChanged: false Elapsed: 7ms
+Info 301  [15:14:46.549] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 302  [15:14:47.187] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 303  [15:14:47.198] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 47 structureChanged: false Elapsed: 11ms
+Info 304  [15:14:47.198] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 305  [15:14:47.745] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 306  [15:14:47.753] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 48 structureChanged: false Elapsed: 8ms
+Info 307  [15:14:47.753] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 308  [15:15:1.709] Format host information updated
+Info 309  [15:15:1.931] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 310  [15:15:1.938] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 49 structureChanged: false Elapsed: 7ms
+Info 311  [15:15:1.938] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 312  [15:15:2.304] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 313  [15:15:2.310] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 50 structureChanged: false Elapsed: 6ms
+Info 314  [15:15:2.310] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 315  [15:15:5.306] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 316  [15:15:5.312] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 51 structureChanged: false Elapsed: 6ms
+Info 317  [15:15:5.312] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 318  [15:15:6.449] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 319  [15:15:6.458] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 52 structureChanged: false Elapsed: 9ms
+Info 320  [15:15:6.459] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 321  [15:15:7.51] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 322  [15:15:7.60] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 53 structureChanged: false Elapsed: 9ms
+Info 323  [15:15:7.60] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 324  [15:15:7.738] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 325  [15:15:7.749] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 54 structureChanged: false Elapsed: 11ms
+Info 326  [15:15:7.749] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 327  [15:15:8.313] Format host information updated
+Info 328  [15:15:8.527] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 329  [15:15:8.532] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 55 structureChanged: false Elapsed: 5ms
+Info 330  [15:15:8.532] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 331  [15:15:8.905] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 332  [15:15:8.911] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 56 structureChanged: false Elapsed: 6ms
+Info 333  [15:15:8.911] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 334  [15:15:26.607] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 335  [15:15:26.613] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 57 structureChanged: false Elapsed: 6ms
+Info 336  [15:15:26.613] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 337  [15:15:27.591] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 338  [15:15:27.600] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 58 structureChanged: false Elapsed: 9ms
+Info 339  [15:15:27.600] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 340  [15:15:27.841] Format host information updated
+Info 341  [15:15:28.60] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 342  [15:15:28.66] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 59 structureChanged: false Elapsed: 6ms
+Info 343  [15:15:28.66] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 344  [15:15:28.415] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 345  [15:15:28.424] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 60 structureChanged: false Elapsed: 9ms
+Info 346  [15:15:28.424] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 347  [15:16:1.153] DirectoryWatcher:: Triggered with /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/.DS_Store :: WatchInfo: /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 348  [15:16:1.154] Elapsed:: 1ms DirectoryWatcher:: Triggered with /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/.DS_Store :: WatchInfo: /Users/xuyizhe/dev/wasm-toolkit/wasm-example/src 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 349  [15:17:9.745] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 350  [15:17:9.793] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 61 structureChanged: true Elapsed: 48ms
+Info 351  [15:17:9.793] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 352  [15:17:11.87] FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/wasm-example/package.json 2:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/wasm-example/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 353  [15:17:11.88] Elapsed:: 1ms FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/wasm-example/package.json 2:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/wasm-example/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 354  [15:17:11.997] Before ensureProjectForOpenFiles:
+Info 355  [15:17:11.997] After ensureProjectForOpenFiles:
+Info 356  [15:17:11.998] got projects updated in background, updating diagnostics for /Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js,/Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/main.js
+Info 357  [15:19:31.231] FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/package.json 1:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 358  [15:19:31.231] Elapsed:: 0ms FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/package.json 1:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 359  [15:19:41.242] FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/package.json 1:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 360  [15:19:41.243] Elapsed:: 1ms FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/package.json 1:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 361  [15:19:48.749] FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/package.json 1:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 362  [15:19:48.749] Elapsed:: 0ms FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/package.json 1:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 363  [16:13:17.603] FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/package.json 2:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 364  [16:13:17.603] Elapsed:: 0ms FileWatcher:: Triggered with /users/xuyizhe/dev/wasm-toolkit/package.json 2:: WatchInfo: /users/xuyizhe/dev/wasm-toolkit/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 365  [18:12:11.660] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 366  [18:12:11.665] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 21 structureChanged: false Elapsed: 5ms
+Info 367  [18:12:11.665] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 368  [18:12:12.52] Format host information updated
+Info 369  [18:12:12.617] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 370  [18:12:12.623] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 22 structureChanged: false Elapsed: 6ms
+Info 371  [18:12:12.623] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 372  [18:12:37.27] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 373  [18:12:37.38] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 23 structureChanged: true Elapsed: 11ms
+Info 374  [18:12:37.38] Project '/dev/null/inferredProject2*' (Inferred)
+Info 375  [18:12:37.38] 	Files (6)
+
+Info 376  [18:12:37.38] -----------------------------------------------
+Info 377  [18:12:37.200] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 378  [18:12:37.206] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 24 structureChanged: true Elapsed: 6ms
+Info 379  [18:12:37.206] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 380  [18:12:37.393] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 381  [18:12:37.402] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 25 structureChanged: true Elapsed: 9ms
+Info 382  [18:12:37.402] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 383  [18:12:37.757] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 384  [18:12:37.766] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 26 structureChanged: true Elapsed: 9ms
+Info 385  [18:12:37.766] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 386  [18:12:38.293] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 387  [18:12:38.301] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 27 structureChanged: true Elapsed: 8ms
+Info 388  [18:12:38.301] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 389  [18:12:38.501] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 390  [18:12:38.508] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 28 structureChanged: true Elapsed: 7ms
+Info 391  [18:12:38.508] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 392  [18:12:39.103] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 393  [18:12:39.107] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 29 structureChanged: true Elapsed: 4ms
+Info 394  [18:12:39.107] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 395  [18:12:39.401] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 396  [18:12:39.409] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 30 structureChanged: true Elapsed: 8ms
+Info 397  [18:12:39.409] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 398  [18:12:39.698] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 399  [18:12:39.705] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 31 structureChanged: true Elapsed: 7ms
+Info 400  [18:12:39.705] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 401  [18:12:40.997] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 402  [18:12:41.5] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 32 structureChanged: true Elapsed: 8ms
+Info 403  [18:12:41.5] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 404  [18:12:41.311] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 405  [18:12:41.319] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 33 structureChanged: true Elapsed: 8ms
+Info 406  [18:12:41.319] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 407  [18:12:42.48] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 408  [18:12:42.57] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 34 structureChanged: true Elapsed: 9ms
+Info 409  [18:12:42.57] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 410  [18:12:42.411] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 411  [18:12:42.420] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 35 structureChanged: true Elapsed: 9ms
+Info 412  [18:12:42.420] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 413  [18:12:42.522] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 414  [18:12:42.528] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 36 structureChanged: true Elapsed: 5ms
+Info 415  [18:12:42.528] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 416  [18:12:43.60] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 417  [18:12:43.69] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 37 structureChanged: true Elapsed: 8ms
+Info 418  [18:12:43.69] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 419  [18:12:43.422] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 420  [18:12:43.429] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 38 structureChanged: true Elapsed: 7ms
+Info 421  [18:12:43.429] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 422  [18:12:43.632] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 423  [18:12:43.639] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 39 structureChanged: true Elapsed: 7ms
+Info 424  [18:12:43.639] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 425  [18:12:43.997] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 426  [18:12:44.5] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 40 structureChanged: true Elapsed: 8ms
+Info 427  [18:12:44.5] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 428  [18:12:44.348] Format host information updated
+Info 429  [18:12:44.357] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 430  [18:12:44.362] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 41 structureChanged: true Elapsed: 5ms
+Info 431  [18:12:44.362] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 432  [18:12:46.607] Before ensureProjectForOpenFiles:
+Info 433  [18:12:46.608] After ensureProjectForOpenFiles:
+Info 434  [18:12:46.608] got projects updated in background, updating diagnostics for /Users/xuyizhe/dev/wasm-toolkit/wasm-example/rollup.config.js,/Users/xuyizhe/dev/wasm-toolkit/wasm-example/src/main.js
+Info 435  [18:13:54.108] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 436  [18:13:54.110] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 42 structureChanged: false Elapsed: 2ms
+Info 437  [18:13:54.110] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 438  [18:13:55.764] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 439  [18:13:55.774] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 43 structureChanged: true Elapsed: 10ms
+Info 440  [18:13:55.774] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 441  [18:13:55.960] Format host information updated
+Info 442  [18:13:56.517] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 443  [18:13:56.520] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 44 structureChanged: false Elapsed: 3ms
+Info 444  [18:13:56.520] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 445  [18:17:57.880] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 446  [18:17:57.883] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 45 structureChanged: false Elapsed: 3ms
+Info 447  [18:17:57.883] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 448  [18:17:58.356] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 449  [18:17:58.359] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 46 structureChanged: false Elapsed: 3ms
+Info 450  [18:17:58.359] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 451  [18:17:58.916] Format host information updated
