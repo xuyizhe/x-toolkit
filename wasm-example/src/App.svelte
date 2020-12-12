@@ -65,30 +65,30 @@
   <div class="container">
     <section>
       <h2>Convert</h2>
-      <details>
+      <details open>
         <summary>convert_string_to_bytes('{HELLO_WORLD_STRING}')</summary>
         [{convert_string_to_bytes_result}]
       </details>
       <br />
-      <details>
-        <summary>convert_bytes_to_string([{HELLO_WORLD_BYTES}])</summary>
+      <details open>
+        <summary>convert_string_from_bytes([{HELLO_WORLD_BYTES}])</summary>
         {convert_string_from_bytes_result}
       </details>
       <br />
-      <details>
+      <details open>
         <summary>convert_hex_encode([{HELLO_WORLD_BYTES}])</summary>
         {convert_hex_encode_result}
       </details>
       <br />
-      <details>
-        <summary>convert_hex_encode({convert_hex_encode_result})</summary>
-        {convert_hex_decode_result}
+      <details open>
+        <summary>convert_hex_decode('{convert_hex_encode_result}')</summary>
+        [{convert_hex_decode_result}]
       </details>
     </section>
 
     <section>
       <h2>Crypto</h2>
-      <details>
+      <details open>
         <summary>crypto_digest_sha256(new Uint8Array([{HELLO_WORLD_BYTES}]))</summary>
         [{crypto_digest_sha256_result}]
       </details>
