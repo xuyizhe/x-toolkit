@@ -2,8 +2,7 @@
   import XToolkitConvertWasm from "@x-toolkit/convert-wasm";
   import XToolkitCryptoWasm from "@x-toolkit/crypto-wasm";
 
-  export const HELLO_WORLD_STRING = "hello, world";
-  export const HELLO_WORLD_BYTES = [104, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100];
+  export const HELLO_WORLD = "hello, world";
 
   export let name;
   export let convert_string_from_bytes_result;
@@ -14,8 +13,10 @@
 
   async function loadConvertWasm() {
     const exports = await XToolkitConvertWasm();
-    convert_string_from_bytes_result = exports.convert_string_from_bytes(HELLO_WORLD_BYTES);
-    convert_string_to_bytes_result = exports.convert_string_to_bytes(HELLO_WORLD_STRING);
+    convert_string_to_bytes_result = exports.convert_string_to_bytes(HELLO_WORLD);
+    convert_string_from_bytes_result = exports.convert_string_from_bytes(
+      convert_string_to_bytes_result
+    );
     convert_hex_encode_result = exports.convert_hex_encode(convert_string_to_bytes_result);
     convert_hex_decode_result = exports.convert_hex_decode(convert_hex_encode_result);
   }
@@ -66,21 +67,21 @@
     <section>
       <h2>Convert</h2>
       <details open>
-        <summary>convert_string_to_bytes('{HELLO_WORLD_STRING}')</summary>
+        <summary>convert_string_to_bytes('{HELLO_WORLD}')</summary>
         [{convert_string_to_bytes_result}]
       </details>
       <br />
-      <details open>
-        <summary>convert_string_from_bytes([{HELLO_WORLD_BYTES}])</summary>
+      <details>
+        <summary>convert_string_from_bytes([{convert_string_to_bytes_result}])</summary>
         {convert_string_from_bytes_result}
       </details>
       <br />
-      <details open>
-        <summary>convert_hex_encode([{HELLO_WORLD_BYTES}])</summary>
+      <details>
+        <summary>convert_hex_encode([{convert_string_to_bytes_result}])</summary>
         {convert_hex_encode_result}
       </details>
       <br />
-      <details open>
+      <details>
         <summary>convert_hex_decode('{convert_hex_encode_result}')</summary>
         [{convert_hex_decode_result}]
       </details>
@@ -88,8 +89,8 @@
 
     <section>
       <h2>Crypto</h2>
-      <details open>
-        <summary>crypto_digest_sha256(new Uint8Array([{HELLO_WORLD_BYTES}]))</summary>
+      <details>
+        <summary>crypto_digest_sha256(new Uint8Array([{convert_string_to_bytes_result}]))</summary>
         [{crypto_digest_sha256_result}]
       </details>
     </section>
