@@ -2,10 +2,7 @@
   "name": "root",
   "private": true,
   "author": "Yizhe Xu <barrenbass@gmail.com>",
-  "workspaces": [
-    "crypto-wasm",
-    "wasm-example"
-  ],
+  "workspaces": ["convert-wasm", "crypto-wasm", "wasm-example"],
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "web": "lerna run --stream --scope @x-toolkit/wasm-example dev",

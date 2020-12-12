@@ -1,5 +1,7 @@
 [workspace]
 members = [
-    "crypto",
-    "crypto-wasm"
+  "convert",
+  "convert-wasm",
+  "crypto",
+  "crypto-wasm"
 ]

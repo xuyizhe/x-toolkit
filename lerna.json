@@ -1,5 +1,5 @@
 {
-  "packages": ["crypto-wasm", "wasm-example"],
+  "packages": ["convert-wasm", "crypto-wasm", "wasm-example"],
   "version": "0.1.0",
   "npmClient": "yarn",
   "useWorkspaces": true

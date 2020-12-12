@@ -1,6 +1,6 @@
 {
-  "name": "@x-toolkit/crypto-wasm",
-  "description": "@x-toolkit/crypto-wasm",
+  "name": "@x-toolkit/convert-wasm",
+  "description": "@x-toolkit/convert-wasm",
   "version": "0.1.0",
   "author": "xuyizhe <barrenbass@gmail.com>",
   "license": "MIT",
