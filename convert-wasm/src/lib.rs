@@ -8,13 +8,13 @@ use wasm_bindgen::prelude::*;
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 #[wasm_bindgen]
-pub fn convert_string_to_bytes(str: String) -> Vec<u8> {
-    str.into_bytes()
+pub fn convert_string_from_bytes(data: &[u8]) -> String {
+    x_toolkit_convert::string::from_bytes(data)
 }
 
 #[wasm_bindgen]
-pub fn convert_bytes_to_string(data: &[u8]) -> String {
-    std::str::from_utf8(data).unwrap().to_string()
+pub fn convert_string_to_bytes(str: String) -> Vec<u8> {
+    x_toolkit_convert::string::to_bytes(str)
 }
 
 #[wasm_bindgen]
