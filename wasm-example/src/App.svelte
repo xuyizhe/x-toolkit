@@ -1,60 +1,57 @@
 <script>
-  import XToolkitConvertWasm from "@x-toolkit/convert-wasm";
-  import XToolkitCryptoWasm from "@x-toolkit/crypto-wasm";
+  import x_toolkit_convert_wasm from "@x-toolkit/convert-wasm";
+  import x_toolkit_crypto_wasm from "@x-toolkit/crypto-wasm";
 
   export const HELLO_WORLD = "hello, world";
 
   export let name;
+  export let x_toolkit_convert;
+  export let x_toolkit_crypto;
   export let convert_string_from_bytes_result;
   export let convert_string_to_bytes_result;
   export let convert_hex_encode_result;
   export let convert_hex_decode_result;
   export let crypto_digest_sha256_result;
 
-  async function loadConvertWasm() {
-    const exports = await XToolkitConvertWasm();
-    convert_string_to_bytes_result = exports.convert_string_to_bytes(HELLO_WORLD);
-    convert_string_from_bytes_result = exports.convert_string_from_bytes(
+  async function loadWasm() {
+    x_toolkit_convert = await x_toolkit_convert_wasm();
+    x_toolkit_crypto = await x_toolkit_crypto_wasm();
+    convert_string_to_bytes_result = x_toolkit_convert.string_to_bytes(HELLO_WORLD);
+    convert_string_from_bytes_result = x_toolkit_convert.string_from_bytes(
       convert_string_to_bytes_result
     );
-    convert_hex_encode_result = exports.convert_hex_encode(convert_string_to_bytes_result);
-    convert_hex_decode_result = exports.convert_hex_decode(convert_hex_encode_result);
+    convert_hex_encode_result = x_toolkit_convert.hex_encode(convert_string_to_bytes_result);
+    convert_hex_decode_result = x_toolkit_convert.hex_decode(convert_hex_encode_result);
+    crypto_digest_sha256_result = x_toolkit_crypto.digest_sha256(convert_string_to_bytes_result);
   }
 
-  async function loadCryptoWasm() {
-    const exports = await XToolkitCryptoWasm();
-    crypto_digest_sha256_result = exports.crypto_digest_sha256(convert_string_to_bytes_result);
-  }
-
-  loadConvertWasm();
-  loadCryptoWasm();
+  loadWasm();
 </script>
 
 <style>
   main {
-    text-align: center;
     padding: 1em;
-    max-width: 240px;
     margin: 0 auto;
   }
 
   h1 {
     color: #ff3e00;
     text-transform: uppercase;
+    text-align: center;
     font-size: 4em;
     font-weight: 100;
   }
 
   .container {
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
-    padding: 20px;
     text-align: left;
+    word-wrap: break-word;
   }
 
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
+  @media (max-width: 750px) {
+    .container {
+      width: 100%;
     }
   }
 </style>
@@ -67,31 +64,37 @@
     <section>
       <h2>Convert</h2>
       <details open>
-        <summary>convert_string_to_bytes('{HELLO_WORLD}')</summary>
-        [{convert_string_to_bytes_result}]
+        <summary>x_toolkit_convert.string_to_bytes("{HELLO_WORLD}")</summary>
+        <code>Uint8Array(12) [{convert_string_to_bytes_result}]</code>
       </details>
       <br />
-      <details>
-        <summary>convert_string_from_bytes([{convert_string_to_bytes_result}])</summary>
-        {convert_string_from_bytes_result}
+      <details open>
+        <summary>
+          x_toolkit_convert.string_from_bytes(new Uint8Array([{convert_string_to_bytes_result}]))
+        </summary>
+        <code>{convert_string_from_bytes_result}</code>
       </details>
       <br />
-      <details>
-        <summary>convert_hex_encode([{convert_string_to_bytes_result}])</summary>
-        {convert_hex_encode_result}
+      <details open>
+        <summary>
+          x_toolkit_convert.hex_encode(new Uint8Array([{convert_string_to_bytes_result}]))
+        </summary>
+        <code>{convert_hex_encode_result}</code>
       </details>
       <br />
-      <details>
-        <summary>convert_hex_decode('{convert_hex_encode_result}')</summary>
-        [{convert_hex_decode_result}]
+      <details open>
+        <summary>x_toolkit_convert.hex_decode("{convert_hex_encode_result}")</summary>
+        <code>Uint8Array(12) [{convert_hex_decode_result}]</code>
       </details>
     </section>
 
     <section>
       <h2>Crypto</h2>
-      <details>
-        <summary>crypto_digest_sha256(new Uint8Array([{convert_string_to_bytes_result}]))</summary>
-        [{crypto_digest_sha256_result}]
+      <details open>
+        <summary>
+          x_toolkit_crypto.digest_sha256(new Uint8Array([{convert_string_to_bytes_result}]))
+        </summary>
+        <code>Uint8Array(32) [{crypto_digest_sha256_result}]</code>
       </details>
     </section>
   </div>

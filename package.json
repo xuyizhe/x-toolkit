@@ -5,7 +5,8 @@
   "workspaces": ["convert-wasm", "crypto-wasm", "wasm-example"],
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "web": "lerna run --stream --scope @x-toolkit/wasm-example dev",
+    "dev:example": "lerna run --stream --scope @x-toolkit/wasm-example dev",
+    "dev": "npm run dev:example",
     "test": "lerna run test",
     "build": "lerna run build"
   },
