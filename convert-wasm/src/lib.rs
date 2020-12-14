@@ -13,8 +13,8 @@ pub fn string_from_bytes(data: &[u8]) -> String {
 }
 
 #[wasm_bindgen]
-pub fn string_to_bytes(str: String) -> Vec<u8> {
-    x_toolkit_convert::string::to_bytes(str)
+pub fn string_to_bytes(data: String) -> Vec<u8> {
+    x_toolkit_convert::string::to_bytes(data)
 }
 
 #[wasm_bindgen]

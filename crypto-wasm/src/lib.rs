@@ -8,6 +8,11 @@ use wasm_bindgen::prelude::*;
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 #[wasm_bindgen]
-pub fn digest_sha256(bytes: &[u8]) -> Vec<u8> {
-    x_toolkit_crypto::digest::sha256(bytes)
+pub fn digest_sha256(data: &[u8]) -> Vec<u8> {
+    x_toolkit_crypto::digest::sha256(data).to_vec()
+}
+
+#[wasm_bindgen]
+pub fn digest_ripemd160(data: &[u8]) -> Vec<u8> {
+    x_toolkit_crypto::digest::ripemd160(data).to_vec()
 }

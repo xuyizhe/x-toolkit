@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 ring = "0.16.19"
+ripemd160 = "0.9.1"
