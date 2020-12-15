@@ -1,17 +1,17 @@
-use crate::ripemd160::{Digest, Ripemd160};
 use ring::digest;
+use ripemd160::{Digest, Ripemd160};
 use std::convert::TryInto;
 
-pub fn sha256(data: &[u8]) -> [u8; 32] {
-    digest::digest(&digest::SHA256, data)
+pub fn sha256(input: &[u8]) -> [u8; 32] {
+    digest::digest(&digest::SHA256, input)
         .as_ref()
         .try_into()
         .unwrap()
 }
 
-pub fn ripemd160(data: &[u8]) -> [u8; 20] {
+pub fn ripemd160(input: &[u8]) -> [u8; 20] {
     let mut hasher = Ripemd160::new();
-    hasher.update(data);
+    hasher.update(input);
     let result = hasher.finalize();
     result[..].try_into().unwrap()
 }
